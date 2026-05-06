@@ -10,5 +10,12 @@ const app = express();
 // port used to open server
 const port = 4443;
 
+app.get('/api/data', (req,res) => {
+    try {let data = {message: "Server Reply"}; res.status(200).json(data);
+    } catch (error) {
+        console.error('Error occurred:', error);
+    }
+})
+
 // Developer tests
 console.log('TEST CONTROLLER');
