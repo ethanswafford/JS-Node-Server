@@ -1,0 +1,24 @@
+{
+  "name": "js-node-server",
+  "version": "1.0.0",
+  "description": "JavaScript Node Server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanswafford/JS-Node-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ethanswafford/JS-Node-Server/issues"
+  },
+  "homepage": "https://github.com/ethanswafford/JS-Node-Server#readme",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
